@@ -122,13 +122,13 @@ button:hover{
   margin-top: 80px;
   margin-bottom: 50px;
   padding-top: 50px;
-  padding-left: 15%;
+  padding-left: 10%;
   padding-right: 5%;
   display: flex;
   line-height: 30px;
   justify-content: space-around;
   align-items: flex-start;
-  gap: 30px;
+  gap: 40px;
 }
 
 
@@ -486,7 +486,7 @@ button:hover{
   padding-left: 5%;
   padding-right: 5%;
   display: block;
-  margin-bottom: 400px;
+  margin-bottom: 40px;
   
 }
 
@@ -537,9 +537,14 @@ button:hover{
   
   
 }
+
+.Contacts{
+  margin-top:40px;
+}
  
 
 }
+
 
 
 
