@@ -494,6 +494,7 @@ button:hover{
   display: block;
   margin-top: 50px;
   padding-left: 5%;
+  padding-right: 5%;
   gap: 30px;
 }
 
@@ -540,11 +541,13 @@ button:hover{
 
 .contact-container{
   padding-left: 5%;
+  padding-right: 5%;
   
 }
  
 
 }
+
 
 
 
