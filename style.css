@@ -95,7 +95,7 @@ nav ul li a:hover{
   font-size: 14px;
 }
 .image{
-  width: 100%;
+  width: 350px;
   height: 350px;
   border-radius: 50%;
 }
@@ -540,6 +540,7 @@ button:hover{
  
 
 }
+
 
 
 
