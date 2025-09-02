@@ -486,7 +486,7 @@ button:hover{
   padding-left: 5%;
   padding-right: 5%;
   display: block;
-  margin-bottom: 40px;
+  margin-bottom: 400px;
   
 }
 
@@ -538,12 +538,14 @@ button:hover{
   
 }
 
-.Contacts{
-  margin-top:40px;
+.contact-container{
+  padding-left: 5%;
+  
 }
  
 
 }
+
 
 
 
