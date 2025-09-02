@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio Website</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/4b6a182ff4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+    <div class="logo">
+      <h1>KUNZZYY <span>DEV</span></h1>
+    </div>
+    <nav>
+      <ul  id="navlink">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hamburger">
+      <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+    </div>
+  </div>
+
+  <div id="hero">
+    <div class="container">
+      <h1>Welcome to my portfolio website</h1>
+      <p>My name is Samuel</p>
+      <p>I'm originally from Nigeria and I'm based in Hertfordshire</p>
+      <p>I'm a frontend Website developer</p>
+      <button>Download CV</button>
+    </div>
+    <div class="profile-pic">
+      <img class="image" src="/images/profile.jpg">
+    </div>
+  </div>
+
+  <div id="about">
+    <div>
+      <img class="aboutPic" src="images/about-pic.jpg">
+      
+    </div>
+
+    <div class="about-container">
+        <h1>About Me</h1>
+      <p>
+        I'm a Frontend Website Developer with a passion for creating clean, responsive, and user-friendly web interfaces. I specialize in turning design concepts into functional, high-performance websites using modern technologies like HTML, CSS, Javascript, and frontend frameworks. Whether it's building from scratch or optimizing existing projects, I focus on delivering seamless digital experiences that look great on any device.
+      </p>
+
+      </div>
+  </div>
+
+  <div id="services">
+    <h1>Services</h1>
+    <div class="services-container">
+      <div>
+        <i class="fa-solid fa-code"></i>
+        <h2>Web Development</h2>
+        <p>
+        I specialise on website development using HTML, CSS and Javascript.
+        
+      </p>
+      </div>
+      <div>
+        <i class="fa-solid fa-gears"></i>
+        <h2>Web Maintenance</h2>
+        <p>
+        I offer website maintenance as well as making them responsive.
+      </p>
+      </div>
+      <div>
+        <i class="fa-solid fa-globe"></i>
+        <h2>Web Hosting</h2>
+        <p>
+        I offer website hosting to enable the website to be accessible by anyone, anywhere in the world.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  
+  <div id="contact">
+    <div class="contact-container">
+    <form action="https://api.web3forms.com/submit" method="POST" class="Contacts">
+      <div class="contact-title">
+        <h2>Get in touch</h2>
+      </div>
+      <input type="hidden" name="access_key" value="677e663a-18f9-416a-9892-a70a0236307c">
+      <input type="text" name="name" placeholder="Your Name" class="contact-input" required>
+      <input type="text" name="email" placeholder="Your Email" class="contact-input" required>
+      <textarea name="message" placeholder="Your Message" class="contact-input" required></textarea>
+      <button type="submit">Submit</button>
+      
+    </form>
+
+  </div>
+
+  <div class="footer-container">
+    <p>&#xA9;kunzzydev 2025</p>
+  </div>
+  <script src="app.js"></script>
+  
+</body>
+</html>

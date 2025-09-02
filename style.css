@@ -1,0 +1,541 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppin' , Arial, Helvetica, sans-serif;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+#header{
+  width: 100%;
+  height: 80px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 5%;
+  align-items: center;
+  position: relative;
+}
+nav ul{
+  display: flex;
+  gap: 20px;
+}
+nav ul li{
+  list-style: none;
+  
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: white;
+  position: relative;
+  font-size: 13px;
+  transition: all 0.5s ease;
+  
+}
+.logo{
+  white-space: nowrap;
+  cursor: pointer;
+}
+.logo h1{
+  color: white;
+}
+span{
+  background-color: white;
+  color: black;
+  padding: 3px;
+  border-radius: 10px;
+}
+nav ul li a:hover{
+  background-color: #332110;
+  color: white;
+  border-radius: 25px;
+  padding: 5px 10px;
+}
+
+.hamburger{
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  display: none;
+  
+
+}
+
+.hamburger i{
+  color: white;
+  font-size: 25px;
+  
+}
+
+#hero{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 50px;
+  padding-left: 5%;
+  padding-right: 5%;
+  line-height: 30px;
+
+}
+#hero .container h1{
+  margin-bottom: 20px;
+}
+#hero .container p{
+  font-size: 14px;
+}
+.image{
+  width: 100%;
+  height: 350px;
+  border-radius: 50%;
+}
+button{
+  padding: 10px 20px;
+  background-color: transparent;
+  border: 1px solid;
+  border-color: #332110;
+  border-radius: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: .5s ease-in-out;
+}
+button:hover{
+  background-color: #332110;
+  color: white;
+}
+
+/*About-section*/
+
+#about{
+  width: 100%;
+  height: 400px;
+  margin-top: 80px;
+  margin-bottom: 50px;
+  padding-top: 50px;
+  padding-left: 15%;
+  padding-right: 5%;
+  display: flex;
+  line-height: 30px;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+
+.aboutPic{
+  width: 300px;
+  height: 350px;
+  border-radius: 20px;
+}
+
+#about .about-container p{
+  margin-top: 20px;
+}
+
+
+
+/*Services-section*/
+
+#services{
+  width: 100%;
+  height: 400px;
+  margin-top: 80px;
+  margin-bottom: 50px;
+  padding-left: 5%;
+  padding-right: 5%;
+  display: block;
+  
+}
+
+#services h1{
+  text-align: center;
+}
+.services-container{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  padding-left: 9%;
+  gap: 30px;
+}
+
+.services-container div{
+  width: 100%;
+  height: 200px;
+  padding: 15px 15px; 
+  background: black;
+  border-radius: 10px;
+  display: block;
+  align-items: center;
+  text-align: center;
+  transition: background .5s, transform .5s ease;
+  
+  
+}
+
+.services-container div i{
+  color: white;
+  font-size: 30px;
+
+}
+
+.services-container div h2{
+  color: white;
+  margin-top: 10px;
+}
+
+.services-container div p{
+  color: white;
+  text-align: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.services-container div:hover{
+  background: #332110;
+  transform: translateY(-10px);
+  
+  
+}
+
+
+/* contact form */
+
+.contact-container{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 500px;
+  
+  
+}
+
+.Contacts{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  background: black;
+  width: 400px;
+  height: 400px;
+  padding: 30px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  transition: transform .5s ease;
+}
+
+.Contacts:hover{
+  background-color: #332110;
+  transform: translateY(-10px);
+}
+
+.contact-title h2{
+  color: white;
+  text-align: center;
+}
+
+.contact-input{
+  padding: 10px;
+  outline: none;
+  border: none;
+  color: rgb(71, 71, 71);
+  border-radius: 30px;
+}
+
+.Contacts textarea{
+  height: 130px;
+  padding-top: 10px;
+  border-radius: 15px;
+}
+
+.Contacts button{
+  color: white;
+  background-color: black;
+  transition: all .5s ease;
+  border-color: white;
+}
+
+.Contacts button:hover{
+  background-color: #332110;
+}
+
+/* footer */
+
+.footer-container{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: black;
+  margin-top: 60px;
+}
+
+.footer-container p{
+  color: white;
+  text-align: center;
+}
+
+
+
+@media screen and (max-width:1100px) {
+  nav ul{
+    position: absolute;
+    top: 80px;
+    right: 0;
+    left: 400px;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.728);
+    backdrop-filter: blur 4.5px;
+    gap: 0;
+    overflow: hidden;
+    transition: all 0.5s ease;
+  }
+
+  nav ul li a{
+    color: white;
+  }
+
+  nav li{
+    padding: 20px;
+  }
+
+  .hamburger{
+    display: block;
+    margin-top: 22px;
+  }
+
+  #hero{
+    padding-left: 2%;
+  }
+
+  #about{
+    padding-left: 5%;
+  }
+
+  .services-container{
+    padding-left: 2%;
+  }
+
+}
+
+@media screen and (max-width:800px) {
+  nav ul{
+    position: absolute;
+    top: 80px;
+    right: 0;
+    left: 400px;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.728);
+    backdrop-filter: blur 4.5px;
+    gap: 0;
+    overflow: hidden;
+    transition: all 0.5s ease;
+  }
+
+  nav ul li a{
+    color: white;
+  }
+
+  nav li{
+    padding: 20px;
+  }
+
+  .hamburger{
+    display: block;
+    margin-top: 22px;
+  }
+
+  #hero{
+    padding-left: 2%;
+  }
+
+  #about{
+    padding-left: 2%;
+  }
+
+  .services-container{
+    padding-left: 0;
+  }
+
+  .services-container div{
+    height: 250px;
+  }
+ 
+}
+
+@media screen and (max-width:670px) {
+
+  #header{
+    width: 100%;
+  
+  }
+
+  .logo{
+    font-size: 15px;
+  }
+
+  nav ul{
+    position: absolute;
+    top: 80px;
+    right: 0;
+    left: 0;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.728);
+    backdrop-filter: blur 4.5px;
+    gap: 0;
+    overflow: hidden;
+    transition: all 0.5s ease;
+  }
+
+  nav ul li a{
+    color: white;
+    font-size: 16px;
+  }
+
+  nav li{
+    padding: 20px;
+  }
+
+  .hamburger{
+    display: block;
+    margin-top: 22px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+
+  .hamburger i{
+    font-size: 40px;
+  }
+
+  #hero{
+    display: block;
+    align-items: center;
+    text-align: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  #hero .container p{
+  font-size: 16px;
+}
+
+button{
+  padding: 10px 20px;
+  background-color: transparent;
+  border: 1px solid;
+  border-color: #332110;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: .5s ease-in-out;
+}
+button:hover{
+  background-color: #332110;
+  color: white;
+}
+
+.image{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  
+}
+
+  #about{
+    display: block;
+    align-items: center;
+    text-align: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-top: 220px;
+  
+  }
+
+  .aboutPic{
+  display: none;
+}
+
+#about .about-container p{
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+#services{
+  width: 100%;
+  height: 400px;
+  margin-top: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  display: block;
+  margin-bottom: 400px;
+  
+}
+
+  .services-container{
+  display: block;
+  margin-top: 50px;
+  padding-left: 9%;
+  gap: 30px;
+}
+
+.services-container div{
+  width: 100%;
+  height: 200px;
+  margin-bottom: 30px;
+  padding: 15px 15px; 
+  background: black;
+  border-radius: 10px;
+  display: block;
+  align-items: center;
+  text-align: center;
+  transition: background .5s, transform .5s ease;
+  
+  
+}
+
+.services-container div i{
+  color: white;
+  font-size: 30px;
+
+}
+
+.services-container div h2{
+  color: white;
+  margin-top: 10px;
+}
+
+.services-container div p{
+  color: white;
+  text-align: center;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.services-container div:hover{
+  background: #332110;
+  transform: translateY(-10px);
+  
+  
+}
+ 
+}
