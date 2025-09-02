@@ -164,7 +164,7 @@ button:hover{
   display: flex;
   justify-content: space-around;
   margin-top: 50px;
-  padding-left: 9%;
+  padding-left: 5%;
   gap: 30px;
 }
 
@@ -538,4 +538,5 @@ button:hover{
   
 }
  
+
 }
