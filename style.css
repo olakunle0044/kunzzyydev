@@ -96,7 +96,7 @@ nav ul li a:hover{
 }
 .image{
   width: 350px;
-  height: 350px;
+  height: 300px;
   border-radius: 20px;
 }
 button{
@@ -563,6 +563,7 @@ button:hover{
  
 
 }
+
 
 
 
