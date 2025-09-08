@@ -450,26 +450,9 @@ button:hover{
   font-size: 16px;
 }
 
-button{
-  padding: 10px 20px;
-  background-color: transparent;
-  border: 1px solid;
-  border-color: #332110;
-  border-radius: 20px;
-  margin-top: 10px;
-  margin-bottom: 15px;
-  font-size: 16px;
-  cursor: pointer;
-  transition: .5s ease-in-out;
-}
-button:hover{
-  background-color: #332110;
-  color: white;
-}
-
 .image{
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
   margin-bottom: 20px;
   margin-top: 20px;
@@ -482,7 +465,7 @@ button:hover{
     text-align: center;
     padding-left: 2%;
     padding-right: 2%;
-    margin-top: 220px;
+    margin-top: 120px;
   
   }
 
@@ -563,6 +546,7 @@ button:hover{
  
 
 }
+
 
 
 
